@@ -18,6 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="threadbase.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Thread_Base.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{B97700B6-2652-4E4B-98A2-0AC5C2EB7D1C}</ProjectGuid>
