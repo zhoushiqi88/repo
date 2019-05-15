@@ -23,6 +23,7 @@
     <ProjectGuid>{37D3EC76-3CE8-44B2-A5BD-80B7C8590FC6}</ProjectGuid>
     <RootNamespace>鱼的战斗</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>hihocoder</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -123,6 +124,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="基因子之和.cpp" />
     <ClCompile Include="鱼的战斗.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
