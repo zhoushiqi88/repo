@@ -4,12 +4,13 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/MinGW/include",
-                "C:/MinGW/share/doc/gdb/7.6.1/include",
-                "C:/MinGW/msys/1.0/include",
-                "C:/MinGW/lib/gcc/mingw32/8.2.0/include",
-                "C:/MinGW/var/lib/wsl/include",
-                "C:/MinGW/lib/gcc/mingw32/8.2.0/include-fixed"
+                "C:/mingw64/include",
+                "C:/mingw64/opt/include",
+                "C:/mingw64/opt/lib/libffi-3.2.1/include",
+                "C:/mingw64/x86_64-w64-mingw32/include",
+                "C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+                "C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
+                "C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/install-tools/include"
             ],
             "defines": [
                 "_DEBUG",
@@ -19,21 +20,21 @@
             "browse": {
                 "path": [
                     "${workspaceFolder}/**",
-                    "C:/MinGW/include",
-                    "C:/MinGW/share/doc/gdb/7.6.1/include",
-                    "C:/MinGW/msys/1.0/include",
-                    "C:/MinGW/lib/gcc/mingw32/8.2.0/include",
-                    "C:/MinGW/var/lib/wsl/include",
-                    "C:/MinGW/lib/gcc/mingw32/8.2.0/include-fixed"
+                    "C:/mingw64/include",
+                    "C:/mingw64/opt/include",
+                    "C:/mingw64/opt/lib/libffi-3.2.1/include",
+                    "C:/mingw64/x86_64-w64-mingw32/include",
+                    "C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+                    "C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
+                    "C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/install-tools/include"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
             },
-            "windowsSdkVersion": "10.0.17763.0",
-            "compilerPath": "C:/MinGW/bin/g++.exe",
+            "compilerPath": "C:/mingw64/bin/g++.exe",
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "msvc-x64"
+            "intelliSenseMode": "gcc-x64"
         }
     ],
     "version": 4
