@@ -11,7 +11,7 @@
                     "-g",
                     "\"${file}\"",
                     "-o",
-                    "\"${fileDirname}\\..\\bin\\${fileBasenameNoExtension}.exe\""
+                    "\"${fileDirname}\\${fileBasenameNoExtension}.exe\""
                 ]
             },
             // 控制台输出的错误信息
